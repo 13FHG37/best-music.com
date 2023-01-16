@@ -107,6 +107,7 @@ if (ids[id].type == "api") {
 let left = document.querySelector('.arrow-left')
 
 left.onclick = function () { 
+    p.style.visibility = "hidden"
     if (id > 0) {
         id--
     }
@@ -117,9 +118,6 @@ left.onclick = function () {
     if (ids[id].type == "api") {
         p.src = `https://www.youtube.com/embed/${ids[id].id}?enablejsapi=1&widgetid=1&loop=1&rel=0&modestbranding=1` 
     }
-    else {
-        p.style.visibility = "hidden"
-    }
     t.firstElementChild.style.backgroundImage = `url('${ids[id].img}')`
     t.lastElementChild.innerHTML = ids[id].name
     t.href = ids[id].link
@@ -129,6 +127,7 @@ left.onclick = function () {
 let right = document.querySelector('.arrow-right')
 
 right.onclick = () => {
+    p.style.visibility = "hidden"
     if (id < ids.length-1) {
         id++
     }
@@ -138,9 +137,6 @@ right.onclick = () => {
     console.log(id);
     if (ids[id].type == "api") {
         p.src = `https://www.youtube.com/embed/${ids[id].id}?enablejsapi=1&widgetid=1&loop=1&rel=0&modestbranding=1`   
-    }
-    else {
-        p.style.visibility = "hidden"
     }
     t.firstElementChild.style.backgroundImage = `url('${ids[id].img}')`
     t.lastElementChild.innerHTML = ids[id].name
