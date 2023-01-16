@@ -32,7 +32,7 @@ let ids = [
     {
         type: "link",
         link: "https://www.youtube.com/watch?v=0TK9fk0Jj2U",
-        img: 'https://www.ghostcultmag.com/wp-content/uploads/Carpenter-Brut-LEATHER-TERROR.jpg',
+        img: 'https://f4.bcbits.com/img/a2386940857_10.jpg',
         name: "Carpenter Brut - Leather Terror"
     },
     {
