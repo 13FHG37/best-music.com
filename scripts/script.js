@@ -107,6 +107,7 @@ if (ids[id].type == "api") {
 let left = document.querySelector('.arrow-left')
 
 left.onclick = function () {
+    p.style.visibility = "hidden"
     if (id > 0) {
         id--
     }
@@ -126,6 +127,7 @@ left.onclick = function () {
 let right = document.querySelector('.arrow-right')
 
 right.onclick = () => {
+    p.style.visibility = "hidden"
     if (id < ids.length-1) {
         id++
     }
@@ -145,6 +147,7 @@ right.onclick = () => {
 t.onclick = () => {
     if (ids[id].type == "api") {
         t.style.visibility = "hidden"
+        p.style.visibility = "visible"
     }
     else {
         window.open(ids[id].link, "_blank");
