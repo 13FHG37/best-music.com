@@ -145,7 +145,6 @@ right.onclick = () => {
 t.onclick = () => {
     if (ids[id].type == "api") {
         t.style.visibility = "hidden"
-        p.style.display = 'block'
     }
     else {
         window.open(ids[id].link, "_blank");
