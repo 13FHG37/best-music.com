@@ -25,14 +25,14 @@ let ids = [
     },
     {
         type: "link",
-        link: "https://www.youtube.com/watch?v=DY1s9SmrQRE",
+        link: "https://youtu.be/DY1s9SmrQRE",
         img: 'https://f4.bcbits.com/img/a0111032182_10.jpg',
         name: "Carpenter Brut - Trilogy"
     },
     {
         type: "link",
-        link: "https://www.youtube.com/watch?v=0TK9fk0Jj2U",
-        img: 'https://f4.bcbits.com/img/a2386940857_10.jpg',
+        link: "https://youtu.be/0TK9fk0Jj2U",
+        img: 'https://www.ghostcultmag.com/wp-content/uploads/Carpenter-Brut-LEATHER-TERROR.jpg',
         name: "Carpenter Brut - Leather Terror"
     },
     {
@@ -52,18 +52,6 @@ let ids = [
         id: "QqydWIvgn_Q",
         img: 'http://i.ytimg.com/vi/QqydWIvgn_Q/maxresdefault.jpg',
         name: "Scattle - Sketch"
-    },
-    {
-        type: "api",
-        id: "RPgmGtCQCzU",
-        img: 'http://i.ytimg.com/vi/RPgmGtCQCzU/maxresdefault.jpg',
-        name: "ΔXIUS LIИK - RΞBØЯИ"
-    },
-    {
-        type: "api",
-        id: "cj8-iuOju7E",
-        img: 'http://i.ytimg.com/vi/cj8-iuOju7E/maxresdefault.jpg',
-        name: "ΔXIUS LIИK - ΞRΛ"
     },
     {
         type: "api",
@@ -88,6 +76,24 @@ let ids = [
         id: "DUEjbW4OKEU",
         img: 'https://i.scdn.co/image/ab67616d0000b273e65ad5e9fc72cba8ddee14a5',
         name: "Metal Gear Rising Revengeance OST"
+    },
+    {
+        type: "api",
+        id: "UcChyvEUo-o",
+        img: 'https://f4.bcbits.com/img/a0070945104_10.jpg',
+        name: "CARPENTERBRUTLIVE"
+    },
+    {
+        type: "link",
+        link: "https://youtu.be/_xoxUEKb0os",
+        img: 'https://f4.bcbits.com/img/a2571377543_10.jpg',
+        name: "Carpenter Brut - Leather Teeth"
+    },
+    {
+        type: "api",
+        id: "RI3IPOpFy4k",
+        img: 'https://f4.bcbits.com/img/a3817114194_65',
+        name: "Scattle - Scattle"
     }
 ]
 let id = 0
