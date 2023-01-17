@@ -35,7 +35,7 @@ body {
     #player-container {
         display: flex;
         flex-wrap: nowrap;
-        margin-top: 50%;
+        margin-top: 200px;
         align-items: center;
         position: relative;
     }    
